@@ -14,7 +14,8 @@ toc: true
 - Builds run locally are tagged as **Local** on the Builds page 
 - Cross-region support for Amazom ECR integrations with the `region` attribute - [documentation]({{site.baseurl}}/docs/codefresh-yaml/steps/build/#fields)
 - Option to add Helm charts as part of Helm environment definition - [documentation]({{site.baseurl}}/docs/new-helm/helm-environment-promotion/#defining-clustersnamespaces-for-each-environment)
-- Option to filter Helm board by charts defined in Helm environment - [documentation]({{site.baseurl}}/docs/new-helm/helm-environment-promotion/#editing-your-helm-boards)  
+- Option to filter Helm board by charts defined in Helm environment - [documentation]({{site.baseurl}}/docs/new-helm/helm-environment-promotion/#editing-your-helm-boards)
+- New system variable {% raw %}`${{CF_COMMIT_MESSAGE_ESCAPED}}`{% endraw %} that escapes special characters in Git commit messages - [documentation]({{site.baseurl}}/docs/codefresh-yaml/variables/#system-provided-variables)  
 
 ### October 2021
 
