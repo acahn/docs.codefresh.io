@@ -18,9 +18,9 @@ This manual will describe the different feature flags available for the [Codefre
 | credsInArgsForHttpChartRepos | set CREDENTIALS_IN_ARGUMENTS to true for http/https charts repositories | 1.0.194 | FALSE | how is it used? |
 | imageRegexp | Use new regexp for searching image during annotation | 1.0.194 | FALSE | add info on what is new regexp by opposition to "old" |
 | log-throttle | Enables improved log throttling in logs terminal component | 1.0.194 | FALSE | what are log terminal component? |
-| pipelineEnforcementsFlag | Enable pipeline enforcements feature | 1.0.175 | TRUE | Value changed in 1.0194 |
-| pipelineWhiteListFlag | Enable pipeline whitelist settings feature | 1.0.175 | TRUE | Value changed in 1.0194 |
-| pipelinePvcFlag | Enable keep PVCs for pending approval | 1.0.175 | TRUE | Value changed in 1.0194 |
-| newBuildDesign | New builds design |  ??? | TRUE | Value changed in 1.0194 |
-| pendingApprovalConcurrencyApplied | Applies concurrency limits of pipeline on pending approval workflows | 1.0.175 | TRUE | Value changed in 1.0194 |
-| buildsPointerPagination | new builds list pointer pagination | 1.0.175 | TRUE | Value changed in 1.0194 |
+| pipelineEnforcementsFlag | Enable pipeline enforcements feature | 1.0.175 | TRUE | Value changed in 1.0.194 |
+| pipelineWhiteListFlag | Enable pipeline whitelist settings feature | 1.0.175 | TRUE | Value changed in 1.0.194 |
+| pipelinePvcFlag | Enable keep PVCs for pending approval | 1.0.175 | TRUE | Value changed in 1.0.194 |
+| newBuildDesign | New builds design |  ??? | TRUE | Value changed in 1.0.194 |
+| pendingApprovalConcurrencyApplied | Applies concurrency limits of pipeline on pending approval workflows | 1.0.175 | TRUE | Value changed in 1.0.194 |
+| buildsPointerPagination | new builds list pointer pagination | 1.0.175 | TRUE | Value changed in 1.0.194 |
