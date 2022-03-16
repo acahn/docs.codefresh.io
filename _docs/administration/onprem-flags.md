@@ -20,6 +20,7 @@ This manual will describe the different feature flags available for the [Codefre
 | codefreshV2NonAdmins | Allow access to CSDP for all users | ??? | FALSE ||
 | credsInArgsForHttpChartRepos | set CREDENTIALS_IN_ARGUMENTS to true for http/https charts repositories | 1.0.194 | FALSE | how is it used? |
 | imageRegexp | Use new regexp for searching image during annotation | 1.0.194 | FALSE | add info on what is new regexp by opposition to "old" |
+| lateVariableInterpolation | Allow variables to be evaluated later in the process (instead of the init phase) | ??? | Allow to use modified pipeline variables in a typed step or to use a variable some fields like registry for example|
 | log-throttle | Enables improved log throttling in logs terminal component | 1.0.194 | FALSE | what are log terminal component? |
 | pipelineEnforcementsFlag | Enable pipeline enforcements feature | 1.0.175 | TRUE | Value changed in 1.0.194 |
 | pipelineWhiteListFlag | Enable pipeline whitelist settings feature | 1.0.175 | TRUE | Value changed in 1.0.194 |
