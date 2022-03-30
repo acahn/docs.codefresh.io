@@ -23,6 +23,7 @@ This manual will describe the different feature flags available for the [Codefre
 | lateVariableInterpolation | Allow variables to be evaluated later in the process (instead of the init phase) | ??? | Allow to use modified pipeline variables in a typed step or to use a variable some fields like registry for example|
 | log-throttle | Enables improved log throttling in logs terminal component | 1.0.194 | FALSE | what are log terminal component? |
 | pipelineEnforcementsFlag | Enable pipeline enforcements feature | 1.0.175 | TRUE | Value changed in 1.0.194 |
+| pipelineInfoEnable | Enable pipeline info on workflow | ??? | TRUE | |
 | pipelineWhiteListFlag | Enable pipeline whitelist settings feature | 1.0.175 | TRUE | Value changed in 1.0.194 |
 | pipelinePvcFlag | Enable keep PVCs for pending approval | 1.0.175 | TRUE | Value changed in 1.0.194 |
 | newBuildDesign | New builds design |  ??? | TRUE | Value changed in 1.0.194 |
