@@ -28,7 +28,9 @@ This manual will describe the different feature flags available for the [Codefre
 | pipelineInfoEnable | Enable pipeline info on workflow | ??? | TRUE | |
 | pipelineWhiteListFlag | Enable pipeline whitelist settings feature | 1.0.175 | TRUE | Value changed in 1.0.194 |
 | pipelinePvcFlag | Enable keep PVCs for pending approval | 1.0.175 | TRUE | Value changed in 1.0.194 |
+| platformAnalytics | Enable charts for platform analytics | 1.2.12 | TRUE | |
 | newBuildDesign | New builds design |  ??? | TRUE | Value changed in 1.0.194 |
 | pendingApprovalConcurrencyApplied | Applies concurrency limits of pipeline on pending approval workflows | 1.0.175 | TRUE | Value changed in 1.0.194 |
 | redirectToCSDP | Default to CSDP and prevent Classic usage | ??? | FALSE | TRUE for account created after 2022-10-19 |
+| saml | SAML | 1.2.12 | TRUE |
 | showClassicCodefreshButton | Show button to return to Classic UI from CSDP | ??? | TRUE | |
