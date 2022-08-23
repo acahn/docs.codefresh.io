@@ -21,7 +21,7 @@ This manual will describe the different feature flags available for the [Codefre
 | credsInArgsForHttpChartRepos | set CREDENTIALS_IN_ARGUMENTS to true for http/https charts repositories | 1.0.194 | FALSE | how is it used? |
 | filterContextsByABACRules | Support RBAC for shared configuration | 1.1.1 | FALSE ||
 | freestyleRegistryContext | Add steps in Codefresh pipelines that push images to different AWS accounts | 1.1.1 | FALSE ||
-| groupingBuildsByPipelines <td colspan=3> deprecated |
+| groupingBuildsByPipelines | <td colspan=3> deprecated</td> |
 | imageRegexp | Use new regexp for searching image during annotation | 1.0.194 | FALSE | add info on what is new regexp by opposition to "old" |
 | lateVariableInterpolation | Allow variables to be evaluated later in the process (instead of the init phase) | ??? | Allow to use modified pipeline variables in a typed step or to use a variable some fields like registry for example|
 | log-throttle | Enables improved log throttling in logs terminal component | 1.0.194 | FALSE | what are log terminal component? |
