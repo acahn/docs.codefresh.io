@@ -22,6 +22,7 @@ This manual will describe the different feature flags available for the [Codefre
 | codefreshV2NonAdmins | Allow access to CSDP for all users | ??? | FALSE ||
 | concurrencyRecommendationFlag | Display recommendations for Credits Consumption or Runner usage, based on the setting of the creditsPricingModelFlag FF.<ul><li>If creditsPricingModelFlag FF is set to true, then concurrencyRecommendationFlag has no impact, and the Usage screen displays Credits Comsumption and Active Seats.</li><li>If creditsPricingModelFlag and concurrencyRecommendationFlag are both set to false, then the Usage screen displays Runner.</li><li>If creditsPricingModelFlag is set to False, and concurrencyRecommendationFlag is set to True, then the Usage screen displays Runner with concurrency recomendations.</li></ul> | | | |
 | credsInArgsForHttpChartRepos | set CREDENTIALS_IN_ARGUMENTS to true for http/https charts repositories | 1.0.194 | FALSE | how is it used? |
+| csdpManagedArgo | Option to enable Hosted Argo runtimes | | TRUE | Should be disabled for on-prem |
 | filterContextsByABACRules | Support RBAC for shared configuration | 1.1.1 | FALSE ||
 | downloadLog | Account with this feature will be able to Download Logs from build logs view || TRUE | **deprecated** | 
 | fixStepExtenderFailFast | Fix correct passing of fail_fast property on execution of StepExtender | ??? | TRUE | When true, fail fast property is not ignored| 
